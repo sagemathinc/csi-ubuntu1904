@@ -14,6 +14,8 @@ RUN apt-get update \
       curl \
       wget \
       bzip2 \
+      less \
+      vim \
       ca-certificates \
       locales \
       fonts-liberation \
