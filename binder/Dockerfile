@@ -58,4 +58,4 @@ RUN adduser --disabled-password \
     --uid ${NB_UID} \
     ${NB_USER}
 WORKDIR ${HOME}
-USER $NB_UID
+USER ${NB_USER}
