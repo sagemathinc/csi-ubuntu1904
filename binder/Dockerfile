@@ -48,7 +48,7 @@ RUN echo "en_US.UTF-8 UTF-8" > /etc/locale.gen && locale-gen
 
 # installing extras, e.g. latex webquiz
 # https://tex.stackexchange.com/questions/73016/how-do-i-install-an-individual-package-on-a-linux-system
-COPY extra.sh /extra.sh
+COPY binder/extra.sh /extra.sh
 RUN bash /extra.sh
 
 RUN adduser --disabled-password \
