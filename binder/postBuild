@@ -6,9 +6,9 @@ set -ex
 # installing webquiz
 # https://tex.stackexchange.com/questions/73016/how-do-i-install-an-individual-package-on-a-linux-system
 TARGET=$(kpsewhich -var-value TEXMFLOCAL)
-mkdir -p "$TARGET"
+sudo mkdir -p "$TARGET"
 cd "$TARGET"
-wget http://mirrors.ctan.org/macros/latex/contrib/webquiz.zip
-unzip webquiz.zip
-rm webquiz.zip
-mktexlsr
+sudo wget http://mirrors.ctan.org/macros/latex/contrib/webquiz.zip
+sudo unzip webquiz.zip
+sudo rm webquiz.zip
+sudo mktexlsr
