@@ -6,3 +6,4 @@ Featuring
 
 - Python 3
 - [texlive-full](https://packages.ubuntu.com/disco/tex/texlive-full)
+  - [WebQuiz Package](https://www.ctan.org/pkg/webquiz)
